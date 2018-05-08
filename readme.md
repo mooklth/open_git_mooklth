@@ -1,1 +1,1 @@
-Git Edu
+This is Git Edu.
