@@ -22,4 +22,13 @@ object frmMain: TfrmMain
     Height = 265
     Width = 193
   end
+  object btnCall: TRzButton
+    Left = 199
+    Top = 8
+    FrameColor = 7617536
+    Caption = 'btnCall'
+    Color = 15791348
+    HotTrack = True
+    TabOrder = 1
+  end
 end

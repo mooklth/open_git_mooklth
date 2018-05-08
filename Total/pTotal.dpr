@@ -2,7 +2,8 @@ program pTotal;
 
 uses
   Vcl.Forms,
-  uMain in 'uMain.pas' {frmMain};
+  uMain in 'uMain.pas' {frmMain},
+  uTool in 'uTool.pas';
 
 {$R *.res}
 
