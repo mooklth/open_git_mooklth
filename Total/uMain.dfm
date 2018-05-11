@@ -11,6 +11,7 @@ object frmMain: TfrmMain
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object cxMemo1: TcxMemo
@@ -30,5 +31,18 @@ object frmMain: TfrmMain
     Color = 15791348
     HotTrack = True
     TabOrder = 1
+  end
+  object edAAA: TcxCurrencyEdit
+    Left = 288
+    Top = 48
+    Properties.DisplayFormat = '#,##0.###'
+    TabOrder = 2
+    Width = 121
+  end
+  object edbbb: TcxCurrencyEdit
+    Left = 288
+    Top = 88
+    TabOrder = 3
+    Width = 121
   end
 end
